@@ -3,54 +3,63 @@ import "./App.css";
 
 const moviesDB = {
   action: [
-    { name: "Avengers EndGame", rating: "4/5" },
-    { name: "Justice League", rating: "4.5/5" },
-    { name: "Tenet", rating: "5/5" },
-    { name: "Man Of Steel", rating: "4.5/5" },
-    { name: "Captian America", rating: "5/5" },
+    {
+      name: "Avengers EndGame",
+      description: "This is a dummy description",
+      rating: "4/5",
+    },
+    {
+      name: "Justice League",
+      description: "This is a dummy description",
+      rating: "4.5/5",
+    },
+    {
+      name: "Tenet",
+      description: "This is a dummy description",
+      rating: "5/5",
+    },
+    {
+      name: "Man Of Steel",
+      description: "This is a dummy description",
+      rating: "4.5/5",
+    },
   ],
-
   horror: [
     {
       name: "Constantine",
+      description: "This is a dummy description",
       rating: "4/5",
     },
     {
       name: "Conjuring",
+      description: "This is a dummy description",
       rating: "4/5",
     },
     {
       name: "Conjuring2",
-      rating: "3.5/5",
-    },
-    {
-      name: "World War Z",
-      rating: "4.5/5",
-    },
-    {
-      name: "13 B",
+      description: "This is a dummy description",
       rating: "3.5/5",
     },
   ],
   Comedy: [
     {
       name: "Knocked Up",
+      description: "This is a dummy description",
       rating: "3.5/5",
     },
     {
       name: "The Dictator",
+      description: "This is a dummy description",
       rating: "4.5/5",
     },
     {
       name: "Crazy, Stupid, Love",
+      description: "This is a dummy description",
       rating: "4/5",
     },
     {
       name: "Palm Springs",
-      rating: "4.5/5",
-    },
-    {
-      name: "Deadpool",
+      description: "This is a dummy description",
       rating: "4.5/5",
     },
   ],
@@ -109,6 +118,7 @@ export default function App() {
             >
               {" "}
               <div style={{ fontSize: "larger" }}> {movie.name} </div>
+              <div style={{ fontSize: "larger" }}> {movie.description} </div>
               <div style={{ fontSize: "smaller" }}> {movie.rating} </div>
             </li>
           ))}
