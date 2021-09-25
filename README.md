@@ -4,4 +4,4 @@ This is an React application which shows some good movies according to genre.
 
 GITHUB:-  https://github.com/shaksham08/GoodMovies
 
-LIVE:- https://goodbooksneog.netlify.app/
+LIVE:- https://goodmoviesneog.netlify.app/
