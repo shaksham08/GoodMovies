@@ -95,9 +95,9 @@ export default function App() {
         }}
       >
         <ul>
-          {moviesDB[genre].map((book) => (
+          {moviesDB[genre].map((movie) => (
             <li
-              key={book.name}
+              key={movie.name}
               style={{
                 listStyle: "none",
                 padding: "1rem",
@@ -108,8 +108,8 @@ export default function App() {
               }}
             >
               {" "}
-              <div style={{ fontSize: "larger" }}> {book.name} </div>
-              <div style={{ fontSize: "smaller" }}> {book.rating} </div>
+              <div style={{ fontSize: "larger" }}> {movie.name} </div>
+              <div style={{ fontSize: "smaller" }}> {movie.rating} </div>
             </li>
           ))}
         </ul>
